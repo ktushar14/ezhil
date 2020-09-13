@@ -416,9 +416,8 @@ table th, table td {
 }
 
 code.has-jax {
-    font: inherit;
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
     font-size: 100%;
-    background: inherit;
-    border: inherit;
-    color: #515151;
 }
