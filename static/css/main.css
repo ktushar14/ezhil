@@ -194,7 +194,7 @@ ul {
 pre code {
   display: inline-block;
 }
-  
+
 
 .wrapper {
     max-width: 760px;
@@ -413,4 +413,12 @@ table th, table td {
     .container {
         margin-top: 10px;
     }
+}
+
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
 }
